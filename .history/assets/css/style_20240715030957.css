@@ -1,0 +1,150 @@
+* {
+    font-family: "Poppins", sans-serif;
+    font-weight: 100;
+    font-style: normal;
+}
+
+body {
+    width: 100%;
+    height: 100%;
+    background-color: #8DC242;
+}
+
+.container-fluid {
+    width: 100%;
+    height: auto;
+}
+
+.form1 {
+    border: 1px solid #f1f1f1;
+    border-radius: 15px;
+    box-shadow: 2px 2px 2px 2px;
+    width: 591px;
+    height: 467px;
+    margin: 63px 10px;
+    padding: 10px;
+    background-color: #fff;
+}
+
+.form2 {
+    border: 1px solid #f1f1f1;
+    border-radius: 15px;
+    box-shadow: 2px 2px 2px 2px;
+    width: 591px;
+    height: 543px;
+    margin: 63px 10px;
+    padding: 10px;
+    background-color: #fff;
+}
+
+input[type=email],
+input[type=number],
+input[type=password] {
+    width: 100%;
+    padding: 12px 20px;
+    margin: 8px 0;
+    display: inline-block;
+    border: 2px solid #8DC242;
+    border-radius: 10PX;
+    box-sizing: border-box;
+}
+
+.buttonSign {
+    background-color: #8DC242;
+    color: white;
+    padding: 14px 5px;
+    margin: 8px 200px;
+    border: none;
+    border-radius: 10PX;
+    cursor: pointer;
+    width: 30%;
+    align-items: center;
+}
+
+
+.head {
+    text-align: center;
+    margin: 24px 0 12px 0;
+}
+
+
+.container {
+    padding: 16px;
+}
+
+
+.img1 {
+    width: 100%;
+    height: 100%;
+    object-fit: cover;
+}
+
+.rgt {
+    margin-left: 130px;
+    padding: 0;
+
+}
+
+.box_1 {
+    border-radius: 10px;
+    border: #000;
+    align-items: center;
+    width: 100%;
+    height: 100%;
+    padding: 15px;
+    background-color: #fff;
+    box-shadow: 2px 2px 5px 5px;
+    margin-top: 10px;
+}
+
+.input {
+    border-radius: 7px;
+    border-color: #8DC242;
+    padding-left: 7px;
+}
+
+/* home page styling */
+.logo {
+    width: 3rem;
+}
+
+.btn-home {
+    width: 9rem;
+    height: 3rem;
+    color: black;
+    background-color: white;
+    color: #000;
+    border-radius: 2rem;
+}
+
+.sideBtn {
+    display: flex;
+    gap: 2rem;
+}
+
+header{
+    display: flex;
+    align-items: center;   justify-content: space-around;
+    /* gap: 5rem; */
+    margin-top: 1rem;
+}
+
+ul{
+    display: flex;
+    align-items: center;
+    gap: 2rem;
+    list-style-type: none;
+}
+
+a{
+    text-decoration: none;
+    color: #000;
+}
+
+.navLog{
+    display: flex;
+}
+
+.navLogo h5{
+text-align: end;
+}
